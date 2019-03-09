@@ -8,6 +8,6 @@ target 'PomTime' do
   # Pods for PomTime
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
-  pod 'GoogleSignIn'
+  pod 'SwiftVideoBackground', '~> 3.0'
 
 end

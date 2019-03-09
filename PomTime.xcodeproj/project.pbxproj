@@ -7,35 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B1362C0222E2080003DAC98 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B1362BF222E2080003DAC98 /* GoogleService-Info.plist */; };
 		2B2389C422220F3400A84770 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2389C322220F3400A84770 /* AppDelegate.swift */; };
 		2B2389C622220F3400A84770 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2389C522220F3400A84770 /* LoginViewController.swift */; };
 		2B2389CB22220F3600A84770 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B2389CA22220F3600A84770 /* Assets.xcassets */; };
 		2B2389CE22220F3600A84770 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2389CC22220F3600A84770 /* LaunchScreen.storyboard */; };
-		2B2389D822224C9C00A84770 /* PomTimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2389D722224C9C00A84770 /* PomTimeService.swift */; };
 		2B2389DA22245F8B00A84770 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2389D922245F8B00A84770 /* Extensions.swift */; };
 		2B345FD72225BC1600E332B8 /* LoginViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B345FD62225BC1600E332B8 /* LoginViewExt.swift */; };
 		2B345FDE2225E6B900E332B8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B345FDD2225E6B900E332B8 /* MainViewController.swift */; };
 		2B345FE02225E6C100E332B8 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B345FDF2225E6C100E332B8 /* RegisterViewController.swift */; };
 		2B345FE32225E75E00E332B8 /* RegisterViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B345FE22225E75E00E332B8 /* RegisterViewExt.swift */; };
 		2B345FE52225E76700E332B8 /* MainViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B345FE42225E76700E332B8 /* MainViewExt.swift */; };
+		2B4D7AD8223340C800A066A2 /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4D7AD7223340C800A066A2 /* NetWorkManager.swift */; };
 		485A038C6CC1732A97836247 /* Pods_PomTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7B0F42A9E095EDEAB5C0C4 /* Pods_PomTime.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		29650A7406649B8B2B429DDC /* Pods-PomTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomTime.release.xcconfig"; path = "Pods/Target Support Files/Pods-PomTime/Pods-PomTime.release.xcconfig"; sourceTree = "<group>"; };
+		2B1362BF222E2080003DAC98 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2B2389C022220F3400A84770 /* PomTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B2389C322220F3400A84770 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B2389C522220F3400A84770 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2B2389CA22220F3600A84770 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B2389CD22220F3600A84770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B2389CF22220F3600A84770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B2389D722224C9C00A84770 /* PomTimeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomTimeService.swift; sourceTree = "<group>"; };
 		2B2389D922245F8B00A84770 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		2B345FD62225BC1600E332B8 /* LoginViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewExt.swift; sourceTree = "<group>"; };
 		2B345FDD2225E6B900E332B8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2B345FDF2225E6C100E332B8 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		2B345FE22225E75E00E332B8 /* RegisterViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewExt.swift; sourceTree = "<group>"; };
 		2B345FE42225E76700E332B8 /* MainViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewExt.swift; sourceTree = "<group>"; };
+		2B4D7AD7223340C800A066A2 /* NetWorkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
 		A9D9BD6A4440F6BCA817D05F /* Pods-PomTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomTime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PomTime/Pods-PomTime.debug.xcconfig"; sourceTree = "<group>"; };
 		FC7B0F42A9E095EDEAB5C0C4 /* Pods_PomTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PomTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -79,6 +81,7 @@
 				2B2389CA22220F3600A84770 /* Assets.xcassets */,
 				2B2389CC22220F3600A84770 /* LaunchScreen.storyboard */,
 				2B2389CF22220F3600A84770 /* Info.plist */,
+				2B1362BF222E2080003DAC98 /* GoogleService-Info.plist */,
 			);
 			path = PomTime;
 			sourceTree = "<group>";
@@ -97,7 +100,7 @@
 		2B2389D622224C7800A84770 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				2B2389D722224C9C00A84770 /* PomTimeService.swift */,
+				2B4D7AD7223340C800A066A2 /* NetWorkManager.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -142,7 +145,6 @@
 				2B2389BD22220F3400A84770 /* Frameworks */,
 				2B2389BE22220F3400A84770 /* Resources */,
 				A429B9389A0F9ABB41DDFB73 /* [CP] Embed Pods Frameworks */,
-				E9BB4CE9EDDBBD9CD11584F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +195,7 @@
 			files = (
 				2B2389CE22220F3600A84770 /* LaunchScreen.storyboard in Resources */,
 				2B2389CB22220F3600A84770 /* Assets.xcassets in Resources */,
+				2B1362C0222E2080003DAC98 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,8 +212,8 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PomTime/Pods-PomTime-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftVideoBackground/SwiftVideoBackground.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -218,8 +221,8 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftVideoBackground.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,28 +252,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E9BB4CE9EDDBBD9CD11584F9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PomTime/Pods-PomTime-resources.sh",
-				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PomTime/Pods-PomTime-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -283,9 +264,9 @@
 				2B2389C622220F3400A84770 /* LoginViewController.swift in Sources */,
 				2B345FE02225E6C100E332B8 /* RegisterViewController.swift in Sources */,
 				2B2389C422220F3400A84770 /* AppDelegate.swift in Sources */,
+				2B4D7AD8223340C800A066A2 /* NetWorkManager.swift in Sources */,
 				2B345FE52225E76700E332B8 /* MainViewExt.swift in Sources */,
 				2B345FDE2225E6B900E332B8 /* MainViewController.swift in Sources */,
-				2B2389D822224C9C00A84770 /* PomTimeService.swift in Sources */,
 				2B2389DA22245F8B00A84770 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

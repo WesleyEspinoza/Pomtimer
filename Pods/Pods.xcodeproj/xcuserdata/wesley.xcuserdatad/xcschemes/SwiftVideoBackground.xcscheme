@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "079E4F97855B7901F483AA030B2B7C5C"
-               BuildableName = "FirebaseAuth.framework"
-               BlueprintName = "FirebaseAuth"
+               BlueprintIdentifier = "29047826B6BE5CBD8960C871D1122C56"
+               BuildableName = "SwiftVideoBackground.framework"
+               BlueprintName = "SwiftVideoBackground"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "079E4F97855B7901F483AA030B2B7C5C"
-            BuildableName = "FirebaseAuth.framework"
-            BlueprintName = "FirebaseAuth"
+            BlueprintIdentifier = "29047826B6BE5CBD8960C871D1122C56"
+            BuildableName = "SwiftVideoBackground.framework"
+            BlueprintName = "SwiftVideoBackground"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

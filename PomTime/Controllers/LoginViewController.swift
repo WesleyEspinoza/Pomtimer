@@ -147,9 +147,7 @@ class LoginViewController: UIViewController {
                 let alert = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)
                 alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
                 strongSelf.present(alert, animated: true)
-                
             }
-            
         }
     }
     
